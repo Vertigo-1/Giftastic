@@ -1,0 +1,37 @@
+body {
+  color: #fff;
+}
+
+.container {
+  position: relative;
+}
+
+header.jumbotron {
+  background: #000000;
+}
+
+p {
+  background: #000000;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  letter-spacing: 8px;
+}
+
+h3 {
+  color: #000;
+}
+
+#anime-form {
+  text-align: right;
+}
+
+#anime-input {
+  color: #000;
+}

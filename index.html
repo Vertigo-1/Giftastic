@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Anime List</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <br />
+	
+      <header class="jumbotron">
+        <h1>My Anime List</h1>
+      </header>
+        <div class="row">
+			<div class="col-8" id="buttons-view"></div>
+	  <div class="col-3">
+      <form class="navbar-form navbar-right" id="anime-form">
+        <div class="form-group">
+          <label for="anime-input"><h3>Add your Anime!</h3></label>
+        </div>
+        <input type="text" id="anime-input" /><br />
+        <input
+          id="add-anime"
+          button
+          type="submit"
+		  class="btn btn-dark"
+          value="Submit"
+        />
+	  </form></div>
+		</div>
+		<br />
+		<br />
+      <div id="anime-view" data-state="still"></div>
+  
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
